@@ -1,0 +1,30 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 60%;
+    width: 25%;
+    margin-left: 4%;
+  }
+
+.participants {
+    padding: 5%;
+    overflow: auto;
+    flex: auto;
+  }
+
+.participant-item {
+    padding: 2% 0;
+}
+
+.top-bar {
+    background: #2979FF;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.online-icon {
+    padding: 3px;
+}
